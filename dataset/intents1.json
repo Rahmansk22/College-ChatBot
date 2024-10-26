@@ -1,0 +1,780 @@
+
+
+{
+  "intents": [
+
+
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day", "How are you?"],
+        "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "Bye", "See you later", "Talk to you later"],
+        "responses": ["Sad to see you go :(", "Goodbye!", "Come back soon!"],
+        "context_set": ""
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who is your developer?", "Who made you?","who designed you","who built you"],
+        "responses": ["I was created by Mrcet Computational Intelligence Department."],
+        "context_set": ""
+      },
+      {
+        "tag": "identity",
+        "patterns": ["What is your name?", "What should I call you?", "Who are you?"],
+        "responses": ["You can call me Mrcet chatbot. I'm a Chatbot."],
+        "context_set": ""
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are the college timings?", "When is the college open?", "What are your hours of operation?","College Timings"],
+        "responses": ["The college is open from 9.20am to 3.30pm, Monday to Saturday."],
+        "context_set": ""
+      },
+      {
+        "tag": "timings",
+        "patterns": ["Lunch break?", "When is the break?", "What are timings of Bio break?","bio break?"],
+        "responses": ["The lunch break is for 1hr 12.30pm to 1.30pm","Bio break for 10m (10.20am to 10.30pm)"],
+        "context_set": ""
+      },
+      {
+        "tag": "library",
+        "patterns": ["Does the college have a library?", "Where is the library located?", "What are the library timings?"],
+        "responses": ["Yes, the college has a library. The library is located at placement block 3rd floor. The timings are from 9am to 5pm, Monday to saturday."],
+        "context_set": ""
+      },
+      {
+
+            "tag": "about_college and mrcet",
+            "patterns": ["Tell me about the college", "What is MRCET?", "Give me information about MRCET"],
+            "responses": [
+              "Malla Reddy College of Engineering & Technology (MRCET) is a constituent College of Malla Reddy Group of Institutions (MRGI) established in 2004. The College offers Engineering courses (B.Tech.) in AE, CSE, CSE(AI&ML), CSE(CS), CSE(IOT), CSE(DS), AI&ML, AI&DS, ECE, EEE, IT, MECH disciplines and Post Graduate (M.Tech.) courses in ECE, CSE, MECH and AE specializations in addition to MBA programmes. The College campus with its aboriculture and horticulture is situated away from the hustle and bustle of the city, providing a serene and tranquil atmosphere, which is conducive to both teaching and learning processes."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "approvals",
+            "patterns": ["What are the approvals of MRCET?", "Is MRCET approved?", "Accreditations of MRCET","Autonomous or not","is Mrcet Autonomous","Mrcet is Autonomous"],
+            "responses": [
+              "YES MRCET is an Autonomous Institution recognized by UGC, Govt. of INDIA. It is approved by AICTE, Govt. of India, New Delhi, and permanently affiliated to JNTUH, Hyderabad. The college is accredited by NBA, New Delhi, India, and NAAC with A-GRADE, UGC, New Delhi. It is also an ISO 9001:2015 Certified Institution and approved by the Govt. of Telangana, India. Additionally, MRCET is a UGC 2f & 12(B) recognized institution, UGC New Delhi."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "special_achievements",
+            "patterns": ["What are the special achievements of MRCET?", "MRCET achievements", "Achievements of MRCET"],
+            "responses": [
+              "MRCET has achieved several milestones: It is an Autonomous Institution recognized by UGC, Govt. of INDIA, accredited by NBA (Tier-1), AICTE, New Delhi, and NAAC-A Grade, UGC, Govt. of India. It is also ISO 9001:2015 Certified, has 2(f) & 12(B) Recognition from UGC, Govt. of India, and its NSS Unit is recognized by JNTUH, Hyderabad. MRCET has a Research Centre Status from JNTUH, Hyderabad, MoU with NRDC, Govt. of India, and an AICTE-MHRD Institution Innovation Council, Ministry of HRD, Govt. of India. The college has an Industry Institute Partnership Cell (IIPC), recognition of Scientific Industrial Research Organizations (SIROs) by Govt. of India, and is a life member of NHRD Network. MRCET is a CISCO International Certification Authorized Centre, approved to admit Foreign Students/PIO’s, a Nodal Center for IIT - Bombay/Kharagpur for Technology Transfer, and a NASSCOM Nodal Center for NAC - Test Assessment. It also houses a Business Incubation Centre - MSME, Govt. of India, and a Global Education and Career Counseling Centre."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_founder_chairman",
+            "patterns": ["Who is the founder chairman?", "Tell me about the founder chairman", "Founder chairman of MRCET"],
+            "responses": [
+              "Shri CH. Malla Reddy, the most humble, dynamic, and charismatic founder chairman, is a visionary who brought about a revolution in the field of education. He is the avant-garde (pioneer) in creating numerous avenues which made professional and technical education accessible to young aspirants. Under his esteemed leadership, the campus has grown by leaps and bounds to become a major learning center with 14 institutes offering almost all Engineering, Management, Computers, and Pharmacy courses. Two hospitals, namely Narayana Hrudayalaya and Malla Reddy Cardiology Hospital, are functioning in Malla Reddy Health City. His life has rekindled many lives by not only igniting their dreams but also by accomplishing them. He strongly believes that only education can bring across a positive change in society."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_secretary",
+            "patterns": ["Who is the secretary?", "Tell me about the secretary", "Secretary of MRCET","Who is the secretary of mrcet?"],
+            "responses": [
+              "Shri CH. Mahender Reddy, the Secretary of MRCET, emphasizes the importance of professional education in the rapidly advancing technological era. He believes that choosing the right college is crucial for one's career journey. At MRCET, the focus has always been on imparting quality education in various engineering disciplines. Over the past seven years, significant efforts have been made to establish MRCET as one of the best engineering institutes in the country. The faculty members are carefully selected and continuously updated on recent technical innovations. The atmosphere at MRCET is friendly, cordial, and perfectly suited to the all-round development of students."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_treasurer",
+            "patterns": ["Who is the treasurer?", "Tell me about the treasurer", "Treasurer of MRCET"],
+            "responses": [
+              "Dr. Ch. Bhadra Reddy, the Treasurer of MRGI, is a highly qualified professional with an M.D. degree in medicine. His youthful presence and proactive approach contribute to shaping the destiny of the student community by imparting quality education in a conducive environment, thereby motivating the students to successfully meet the contemporaneous needs of the industry."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_advisor",
+            "patterns": ["Who is the advisor?", "Tell me about the advisor", "Advisor of MRCET"],
+            "responses": [
+              "Dr. V.S.K. Reddy, the Advisor of Malla Reddy College of Engineering & Technology, has more than 19 years of experience in teaching and industry. An alumnus of IIT Kharagpur, he obtained a Ph.D. in the area of Multi-media Signal Processing and Communication Protocols. He specializes in Electronics & Communications and Computer Science Engineering. Dr. Reddy has over 45 publications in national and international conferences and journals. He is a fellow of IETE, a life member of ISTE, and a member of IEEE. He was awarded 'Best Teacher' for three consecutive academic years with citation and cash award and received the 'India Jewel Award' for outstanding contributions in engineering and technology research."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_principal",
+            "patterns": ["Who is the principal?", "Tell me about the principal", "Principal of MRCET","Who is the principal? of mrcet"],
+            "responses": [
+              "Dr. S Srinivasa Rao, the Principal of MRCET, completed his B.Tech in Electronics & Communication Engineering from Madras Institute of Technology, Chennai. He did his M.Tech in Digital Systems & Computer Electronics from JNTU College of Engineering, Hyderabad, and his Ph.D. from JNTU University, Hyderabad, in Wireless Communications. With 25 years of teaching experience in various reputed engineering colleges in AP & Telangana, Dr. Rao has published more than 20 research papers in international journals and presented 30 research papers in international/national conferences/seminars/symposiums. He has also conducted various workshops, seminars, conferences, and FDPs."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "management_dean_students_welfare and dean",
+            "patterns": ["who is dean","who is dean of mrcet","who is the dean of mrcet","who is the dean","Who is the dean of student welfare?", "Tell me about the dean of student welfare", "Dean of student welfare at MRCET"],
+            "responses": [
+              "Dr. Tipirneni Venugopal, the Dean of Students Welfare, received his Bachelor of Engineering degree in Electronics Engineering from Marathwada University and a Master of Technology in Digital Systems and Computer Electronics from JNTUH. He obtained his Ph.D. in Digital Image Processing and is a member of the Institution of Engineers, ISTE, and IETE. With more than 30 years of experience in teaching, administration, and research, Dr. Venugopal has published five research papers in national and international journals and conferences. He has organized national conferences, faculty development programs, seminars, guest lectures, and attended around ten FDPs and workshops. He established a Training Technology Display and Dissemination Center for the display, demonstration, and training of DAE technologies, which is the only one in Telangana state out of ten in India, sponsored by Bhabha Atomic Research Center (BARC) Mumbai, with a sanctioned amount of 37.5 lakhs."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "principal_profile",
+            "patterns": [
+              "Tell me about the principal's profile",
+              "Principal's brief profile",
+              "Who is the principal of MRCET?",
+              "Can you provide details about Dr. S Srinivasa Rao?",
+              "Who is Dr. S Srinivasa Rao?",
+              "Principal's experience",
+              "Principal's career",
+              "Principal's achievements",
+              "Principal's work history"
+            ],
+            "responses": [
+              "Dr. S Srinivasa Rao is the Principal of Malla Reddy College of Engineering & Technology. He has 25 years of teaching experience in various reputed engineering colleges in Andhra Pradesh & Telangana. He has published more than 20 research papers in international journals and presented 30 research papers in international/national conferences, seminars, and symposiums. He has also conducted various workshops, seminars, conferences, and faculty development programs (FDPs).",
+              "Dr. S Srinivasa Rao has a distinguished career with 25 years of teaching experience in reputed engineering colleges in AP & Telangana. He has published over 20 research papers in international journals and presented 30 research papers at international/national conferences, seminars, and symposiums.",
+              "Dr. S Srinivasa Rao's extensive experience in academia includes conducting numerous workshops, seminars, conferences, and faculty development programs (FDPs). He has also published over 20 research papers in international journals and presented 30 research papers in various academic forums.",
+              "With 25 years of teaching experience and numerous academic contributions, Dr. S Srinivasa Rao has significantly impacted the field of engineering education in Andhra Pradesh & Telangana."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "principal_qualifications",
+            "patterns": [
+              "What are the qualifications of the principal?",
+              "Principal's academic background",
+              "Principal's education",
+              "Principal's qualifications",
+              "What degrees does Dr. S Srinivasa Rao hold?",
+              "Principal's academic profile",
+              "Dr. S Srinivasa Rao's qualifications"
+            ],
+            "responses": [
+              "Dr. S Srinivasa Rao completed his B.Tech in Electronics & Communication Engineering from Madras Institute of Technology, Chennai, one of the top engineering colleges in India. He earned his M.Tech in Digital Systems & Computer Electronics from JNTU College of Engineering, Hyderabad, and his Ph.D. in Wireless Communications from JNTU University, Hyderabad.",
+              "Dr. S Srinivasa Rao holds the following qualifications:\n- Ph.D. in ECE from JNTU Hyderabad (2013)\n- M.Tech in DSCE from JNTU Hyderabad (2004) with 82% marks\n- B.Tech in ECE from Madras Institute of Technology, Anna University (1989) with 68.25% marks\n- B.Sc in Physics from Nagarjuna University (1986) with 83.25% marks\n- Inter in M.P.C from BIE, Hyderabad, A.P (1983) with 72.6% marks\n- S.S.C from BSE, Hyderabad, A.P (1981) with 70.6% marks",
+              "Dr. S Srinivasa Rao has an impressive academic profile:\n- Ph.D. in ECE from JNTU Hyderabad (2013)\n- M.Tech in DSCE from JNTU Hyderabad (2004) with 82% marks\n- B.Tech in ECE from Madras Institute of Technology, Anna University (1989) with 68.25% marks\n- B.Sc in Physics from Nagarjuna University (1986) with 83.25% marks\n- Inter in M.P.C from BIE, Hyderabad, A.P (1983) with 72.6% marks\n- S.S.C from BSE, Hyderabad, A.P (1981) with 70.6% marks",
+              "Dr. S Srinivasa Rao has achieved several academic milestones:\n- Secured University Fourth Rank in B.Sc\n- Selected for National Merit Scholarship\n- Secured University Second Rank in M.Tech\n- Qualified ASOC, Government of India, Amateur Section, W.P.C. Wing, Ministry of Communications & IT, New Delhi"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "admission_procedure",
+            "patterns": [
+                "How can i get admission?",
+              "how to get into mrcet?",
+              "How do I apply for admission?",
+              "What is the admission process?",
+              "How can I get admitted to MRCET?",
+              "Admission procedure for MRCET",
+              "What is the process to apply to MRCET?",
+              "How to apply for admission?"
+            ],
+            "responses": [
+              "Admissions to the Institute are made along with other engineering colleges in the state through a common entrance test conducted by the Govt. of Telangana / Andhra Pradesh.",
+              "To apply for admission, students need to take a common entrance test conducted by the Govt. of Telangana / Andhra Pradesh. The application form can be downloaded from the website and submitted in person.",
+              "The admission procedure involves a common entrance test conducted by the state government, followed by the submission of the application form, which can be downloaded from the website."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "eligibility_btech",
+            "patterns": [
+                "eligibility of Btech?",
+                "eligibility into Btech?",
+              "What is the eligibility criteria for B.Tech?",
+              "B.Tech admission requirements",
+              "Who can apply for B.Tech?",
+              "Eligibility for B.Tech courses",
+              "What are the criteria for B.Tech admission?"
+            ],
+            "responses": [
+              "70% of the seats are allotted based on the merit in the Engineering and Medical Common Entrance Test (EAMCET) conducted by Govt. of Telangana / Andhra Pradesh. 30% of the seats are earmarked for Management / NRI candidates.",
+              "For B.Tech courses, 70% of seats are filled through EAMCET merit, while 30% are reserved for Management / NRI candidates.",
+              "Diploma holders can be admitted to the second year of B.Tech under the lateral entry scheme, which accounts for 20% of the intake, based on the merit in the Engineering Common Entrance Test (ECET) conducted by Govt. of Telangana / Andhra Pradesh."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "eligibility_mtech",
+            "patterns": [
+              "What is the eligibility criteria for M.Tech?",
+              "M.Tech admission requirements",
+              "Who can apply for M.Tech?",
+              "Eligibility for M.Tech courses",
+              "What are the criteria for M.Tech admission?"
+            ],
+            "responses": [
+              "The eligibility criteria for M.Tech courses vary by specialization:\n- Aerospace Engineering: B.E / B.Tech in Aeronautical Engineering / Mechanical Engineering (or) Equivalent with valid GATE score / based on the rank obtained in the test conducted by JNTU.\n- Computer Science & Engineering: B.E / B.Tech in Computer Science and Engineering (or) Equivalent with valid GATE score / based on the rank obtained in the test conducted by JNTU.\n- Systems & Signal Processing: B.E / B.Tech in ECE / EEE / CSE / IT / EIE (or) Equivalent with valid GATE score / based on the rank obtained in the test conducted by JNTU.\n- Machine Design: B.E / B.Tech in Mechanical Engineering / Automobile Engineering / Mechatronics / Aeronautical Engineering (or) Equivalent with valid GATE score / based on the rank obtained in the test conducted by JNTU."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "eligibility_mba",
+            "patterns": [
+              "What is the eligibility criteria for MBA?",
+              "MBA admission requirements",
+              "Who can apply for MBA?",
+              "Eligibility for MBA courses",
+              "What are the criteria for MBA admission?"
+            ],
+            "responses": [
+              "The minimum qualification for admission to the first year of the MBA is a pass in an undergraduate course (10 + 2 + 3). 70% of the seats are allotted based on the merit in the Integrated Common Entrance Test (ICET) conducted by Govt. of Telangana / Andhra Pradesh. 30% of the seats are earmarked for Management / NRI candidates."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "how_to_apply",
+            "patterns": [
+              "How to apply?",
+              "How can I apply for admission?",
+              "Application process",
+              "Steps to apply",
+              "Where can I find the application form?"
+            ],
+            "responses": [
+              "To apply, download the application form from the MRCET website. Fill in the form and submit it in person. 30% of seats in each branch are filled under Management Quota based on eligibility as per JNTU rules. 70% of seats are filled from Government.",
+              "You can download the application form from the website, fill it in, and submit it in person. 70% of the seats are filled by the government, while 30% are reserved for the Management Quota."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "contact_details",
+            "patterns": [
+              "How can I contact MRCET?",
+              "Contact information",
+              "Phone number for admission",
+              "Email for admission",
+              "Admission office contact"
+            ],
+            "responses": [
+              "For more details, please contact:\nPhone Number: 7207034237\nEmail ID: mrcet2004@gmail.com",
+              "You can reach out to the admission office at:\nPhone Number: 7207034237\nEmail ID: mrcet2004@gmail.com"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "undergraduate_courses",
+            "patterns": [
+              "What are the undergraduate courses offered?",
+              "List the B.Tech courses available.",
+              "What are the UG courses at MRCET?",
+              "Tell me about the B.Tech programmes.",
+              "What B.Tech specializations does MRCET offer?"
+            ],
+            "responses": [
+              "Malla Reddy College of Engineering and Technology offers the following undergraduate courses with the respective annual intake:\n\n1. **B.Tech – Computer Science and Engineering**: 420\n2. **B.Tech – Computer Science and Engineering (Artificial Intelligence and Machine Learning)**: 300\n3. **B.Tech – Computer Science and Engineering (Data Science)**: 240\n4. **B.Tech – Computer Science and Engineering (Cyber Security)**: 60\n5. **B.Tech – Computer Science and Information Technology**: 60\n6. **B.Tech – Electronics and Communication Engineering**: 120\n7. **B.Tech – Electrical and Electronics Engineering**: 30\n8. **B.Tech – Aeronautical Engineering**: 60\n9. **B.Tech – Mechanical Engineering**: 30"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "postgraduate_courses",
+            "patterns": [
+              "What are the postgraduate courses offered?",
+              "List the M.Tech courses available.",
+              "What are the PG courses at MRCET?",
+              "Tell me about the M.Tech programmes.",
+              "What M.Tech specializations does MRCET offer?"
+            ],
+            "responses": [
+              "Malla Reddy College of Engineering and Technology offers the following postgraduate courses (full-time) with the respective annual intake:\n\n1. **M.Tech – Computer Science and Engineering (CSE)**: 30\n2. **M.Tech – VLSI and Embedded Systems (ECE)**: 24\n3. **M.Tech – Aerospace Engineering (ANE)**: 30\n4. **M.Tech – Machine Design (MECH)**: 30\n5. **M.Tech – Thermal Engineering (MECH)**: 24"
+            ],
+            "context_set": ""
+          },{
+            "tag": "mba_courses",
+            "patterns": [
+              "What is the MBA course offered?",
+              "List the MBA programme details.",
+              "What are the details of the MBA course at MRCET?",
+              "Tell me about the MBA programme.",
+              "What is the intake for MBA at MRCET?"
+            ],
+            "responses": [
+              "Malla Reddy College of Engineering and Technology offers the following Master of Business Administration (MBA) programme with an annual intake of 240."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "research_programmes",
+            "patterns": [
+              "What research programmes are offered?",
+              "List the Ph.D. programmes available.",
+              "What are the research opportunities at MRCET?",
+              "Tell me about the Ph.D. programme.",
+              "What is the Ph.D. course offered?"
+            ],
+            "responses": [
+            "Malla Reddy College of Engineering and Technology offers the following research programme:\n\n1. **Ph.D - Electronics and Communication Engineering**"
+            ],
+
+            "context_set": ""
+          },
+          {
+            "tag": "foreign_students_admission",
+            "patterns": [
+              "What is the admission procedure for foreign students?",
+              "How can foreign students apply?",
+              "Details on admissions for PIOs and foreign students.",
+              "What are the seats reserved for foreign students?",
+              "How do PIOs and foreign students get admission?"
+            ],
+            "responses": [
+              "Foreign students and PIOs are admitted in a supernumerary quota."
+            ],
+            "context_set": ""
+          },
+
+   
+    {
+  "tag": "UG_Courses",
+  "patterns": [
+    "B.Tech – Computer Science and Engineering",
+    "B.Tech seats Computer Science and Engineering",
+    "B.Tech seats Cse",
+    "B.Tech seats Ece",
+    "B.Tech seats Eee",
+    "B.Tech seats Cse-aiml",
+    "B.Tech seats Cse-ds",
+    "B.Tech seats Cse-cs",
+    "B.Tech seats Cse-iot",
+    "B.Tech seats Aiml",
+    "B.Tech seats Aids",
+    "B.Tech seats aero,aeronotical",
+    "B.Tech seats mechanical,mech",
+    "B.Tech – Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+    "B.Tech – Computer Science and Engineering (Data Science)",
+    "B.Tech – Computer Science and Engineering (Cyber Security)",
+    "B.Tech – Computer Science and Information Technology",
+    "B.Tech – Electronics and Communication Engineering",
+    "B.Tech – Electrical and Electronics Engineering",
+    "B.Tech – Aeronautical Engineering",
+    "B.Tech – Mechanical Engineering"
+  ],
+  "responses": [
+    "The intake for B.Tech – Computer Science and Engineering is 420",
+    "The intake for B.Tech – Computer Science and Engineering (Artificial Intelligence and Machine Learning) is 300",
+    "The intake for B.Tech – Computer Science and Engineering (Data Science) is 240",
+    "The intake for B.Tech – Computer Science and Engineering (Cyber Security) is 60",
+    "The intake for B.Tech – Computer Science and Information Technology is 60",
+    "The intake for B.Tech – Electronics and Communication Engineering is 120",
+    "The intake for B.Tech – Electrical and Electronics Engineering is 30",
+    "The intake for B.Tech – Aeronautical Engineering is 60",
+    "The intake for B.Tech – Mechanical Engineering is 30"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "PG_Courses",
+  "patterns": [
+    "M.Tech – Computer Science and Engineering",
+    "M.Tech – VLSI and Embedded Systems",
+    "M. Tech – Aerospace Engineering",
+    "M.Tech – Machine Design",
+    "M.Tech – Thermal Engineering"
+  ],
+  "responses": [
+    "The intake for M.Tech – Computer Science and Engineering is 30",
+    "The intake for M.Tech – VLSI and Embedded Systems is 24",
+    "The intake for M. Tech – Aerospace Engineering is 30",
+    "The intake for M.Tech – Machine Design is 30",
+    "The intake for M.Tech – Thermal Engineering is 24"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "MBA_Course",
+  "patterns": [
+    "MBA – Master of Business Administration"
+  ],
+  "responses": [
+    "The intake for MBA – Master of Business Administration is 240"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "PhD_Course",
+  "patterns": [
+    "Ph.D - Electronics and Communication Engineering"
+  ],
+  "responses": [
+    "The Ph.D course is available for Electronics and Communication Engineering"
+  ],
+  "context_set": ""
+},
+
+  
+    {
+  "tag": "MRCET_Hostel",
+  "patterns": [
+      "is hostel available at MRCET",
+    "Is hostel available",
+    "Hostel for students",
+    "Hostel facilities at MRCET",
+    "MRCET hostel services",
+    "Boys and girls hostel at MRCET",
+    "Hostel life at MRCET",
+      "Hostel Fee"
+  ],
+  "responses": [
+    "MRCET provides separate hostel buildings for boys and girls.",
+    "Healthy and hygienic dining facilities are available at the hostel.",
+    "The hostel has a purified water plant for clean drinking water.",
+    "24x7 medical facilities and ambulance services are available for emergencies.",
+    "The hostel is secured with 24x7 security and CCTV surveillance.",
+    "There is 24x7 power backup and solar hot water provision in the hostel.",
+    "Students can enjoy indoor and outdoor games in the hostel.",
+    "A TV room is available for entertainment, and the campus is Wi-Fi enabled.",
+    "The hostel maintains clean and green surroundings with regular housekeeping services.",
+    "A waiting lounge area is also provided for comfort.",
+    "Hostel fee is 90000 per annum."
+  ],
+  "context_set": ""
+},
+
+
+ 
+    {
+  "tag": "MRCET_Transport",
+  "patterns": [
+      "college bus",
+    "Transport facilities at MRCET",
+    "College bus services for students",
+    "MRCET transport fee",
+    "How to reach MRCET",
+    "MRCET bus routes"
+  ],
+  "responses": [
+    "MRCET provides transport facilities from various places in the city to the college.",
+    "The transport fee is 40,000 rupees per year, regardless of the route or location within the city."
+  ],
+  "context_set": ""
+},
+
+
+    
+    {
+  "tag": "MRCET_Library",
+  "patterns": [
+    "Library at MRCET",
+    "MRCET learning resources",
+    "Books availability at MRCET",
+    "Library working hours at MRCET",
+    "MRCET library policy"
+  ],
+  "responses": [
+    "The MRCET library is well-stocked with standard textbooks and books by reputable authors across all fields taught at the college.",
+    "The college follows a policy of purchasing multiple copies of books to ensure availability for a large number of students.",
+    "There is no budget approval required when purchasing books, ensuring students have access to reference materials at all times.",
+    "The library working hours are from 09:00 am to 05:30 pm, Monday to Saturday."
+  ],
+  "context_set": ""
+},
+
+
+    {
+  "tag": "MRCET_Sports_Center",
+  "patterns": [
+    "Sports facilities at MRCET",
+    "Gymnasium at MRCET",
+    "Games at MRCET sports center",
+    "List of sports at MRCET",
+    "MRCET sports center activities"
+  ],
+  "responses": [
+    "MRCET offers a variety of sports and fitness facilities, including a well-equipped gymnasium.",
+    "Students can enjoy playing volleyball at the sports center.",
+    "Basketball courts are available for students at MRCET.",
+    "The sports center also provides facilities for throw ball.",
+    "Football is another popular sport available at MRCET.",
+    "Kabbadi is one of the traditional sports offered at the college.",
+    "Badminton courts are provided for students at MRCET.",
+    "Cricket is a major sport at the MRCET sports center.",
+    "Facilities for athletes are available to encourage participation in track and field events.",
+    "Students can also engage in indoor games like chess.",
+    "Table tennis is another indoor sport available at MRCET.",
+    "Caroms is provided as a recreational indoor game.",
+    "The college also has facilities for handball.",
+    "Kho-kho is one of the traditional games offered at MRCET."
+  ],
+  "context_set": ""
+},
+
+
+  
+
+    {
+  "tag": "MRCET_Placement_Statistics",
+  "patterns": [
+    "UG placement statistics at MRCET",
+    "PG placement statistics at MRCET",
+    "Placement details at MRCET",
+    "MRCET median salary package",
+    "Students opting for higher studies at MRCET"
+  ],
+  "responses": [
+    "For UG (4 Years) placement statistics at MRCET, 956 students graduated and 766 students were placed.",
+    "For PG (2 Years) placement statistics at MRCET, 55 students graduated and 45 students were placed.",
+    "The average salary package for UG students is Rs. 5,10,000 per annum.",
+    "The average salary package for PG students is Rs. 5,25,000 per annum.",
+    "The median salary package for UG students is Rs. 5,10,000 per annum.",
+    "The median salary package for PG students is Rs. 5,25,000 per annum.",
+    "172 UG students opted for higher studies.",
+    "8 PG students opted for higher studies."
+  ],
+  "context_set": ""
+},
+
+  
+
+    {
+  "tag": "MRCET_Top_Recruiters",
+  "patterns": [
+    "Top recruiters at MRCET",
+    "Companies hiring from MRCET",
+    "MRCET placement recruiters",
+    "Recruiters at MRCET Hyderabad",
+    "MRCET top companies"
+  ],
+  "responses": [
+    "Top recruiters at MRCET Hyderabad include:",
+    "1. TCS",
+    "2. Capgemini",
+    "3. Deloitte",
+    "4. IBM",
+    "5. Amazon",
+    "6. Infosys",
+    "7. Mahindra"
+  ],
+  "context_set": ""
+},
+
+  
+
+    {
+  "tag": "MRCET_Placement_Records",
+  "patterns": [
+    "Top Placement sheet at MRCET",
+    "History of Placement at MRCET",
+    "MRCET placement recruiters",
+    "Recruiters at MRCET Hyderabad",
+    "MRCET top companies"
+  ],
+  "responses": [
+    "There are Many students placed Every year for more deatils visit https://mrcet.com/StudentsPlaced.html"
+  ],
+  "context_set": ""
+},
+
+
+    {
+  "tag": "MRCET_Humanities_Sciences_HOD",
+  "patterns": [
+      "H&S Hod",
+      "H and S Hod",
+    "H&S department hod at MRCET",
+    "Head of Humanities & Sciences at MRCET",
+    "Who is the HOD of H&S at MRCET",
+    "Contact details of H&S HOD MRCET"
+  ],
+  "responses": [
+    "Dr. V. Madhusudhana Reddy is the Head of the Department (HOD) for Humanities & Sciences at MRCET.",
+    "He holds M.Sc., M.Phil., and PhD degrees.",
+    "You can contact him at +91-9492025025 or via email at v.madhusudhanareddy@gmail.com."
+  ],
+  "context_set": ""
+},
+
+
+
+    {
+  "tag": "MRCET_CSE_AIML_HOD",
+  "patterns": [
+    "HOD of CSE AIML at MRCET",
+    "HOD of AIML at MRCET",
+    "HOD of AIDS at MRCET",
+    "CSE AIML HOD ",
+    "AIML HOD ",
+    "AIDS HOD ",
+    "CSE-AIML HOD ",
+    "HOD of Computational Intelligence at MRCET",
+    "HOD of Computational Intelligence",
+    "CSE AIML HOD contact details",
+    "Who is the head of AIML at MRCET",
+    "Contact Dr. D. Sujatha at MRCET"
+  ],
+  "responses": [
+    "Dr. D. Sujatha is the Head of the Department for CSE-AIML, AIML, and AI & Data Science at MRCET.",
+    "She holds B.Tech, M.Tech, and Ph.D. degrees (JNTUH).",
+    "You can contact her at +91-8978918912 or via email at sujatha.dandu@mrcet.ac.in."
+  ],
+  "context_set": ""
+},
+
+
+    {
+  "tag": "MRCET_Emerging_Technologies_HOD",
+  "patterns": [
+      "HOD of IOT",
+      "HOD of data science",
+      "HOD of cyber security",
+    "HOD of Emerging Technologies at MRCET",
+    "IoT, Cybersecurity, Data Science HOD at MRCET",
+    "Contact Dr. M.V. Kamal at MRCET",
+    "MRCET HOD for IoT, Cybersecurity, Data Science"
+  ],
+  "responses": [
+    "Dr. M.V. Kamal is the Head of the Department for Emerging Technologies (CSE) at MRCET, overseeing IoT, Cybersecurity, and Data Science.",
+    "He holds a B.E. (CSE), M.Tech (SE), and Ph.D.",
+    "You can contact him at +91-7409262929 or via email at mvkamal@mrcet.ac.in and kamalmrcet@gmail.com."
+  ],
+  "context_set": ""
+},
+
+  
+    {
+  "tag": "MRCET_ECE_HOD",
+  "patterns": [
+    "HOD of ECE at MRCET",
+    "Electronics and Communication Engineering HOD at MRCET",
+    "ECE HOD at MRCET",
+    "ECE HOD contact details",
+    "ECE HOD",
+    "ECE department head at MRCET",
+    "Contact details of Dr. K. Mallikharjuna Lingam",
+    "Who is the ECE HOD at MRCET"
+  ],
+  "responses": [
+    "Dr. K. Mallikharjuna Lingam is the Head of the Department (HOD) for Electronics and Communication Engineering (ECE) at MRCET.",
+    "He holds MIETE, M.Tech, and Ph.D. degrees.",
+    "You can contact him at +91 9505237779 or via email at mallikarjunk24@gmail.com."
+  ],
+  "context_set": ""
+},
+
+ 
+    {
+  "tag": "MRCET_EEE_HOD",
+  "patterns": [
+    "HOD of EEE at MRCET",
+    "Electrical and Electronics Engineering HOD at MRCET",
+    "EEE HOD at MRCET",
+    "EEE HOD contact details",
+    "EEE HOD",
+    "EEE department head at MRCET",
+    "Contact details of Dr. M. Sharanya",
+    "Who is the EEE HOD at MRCET"
+  ],
+  "responses": [
+    "Dr. M. Sharanya is the Head of the Department (HOD) for Electrical and Electronics Engineering (EEE) at MRCET.",
+    "She holds B.Tech, M.Tech, Ph.D., MISTE, MIE, and MIETE degrees.",
+    "You can contact her at +91 9849248291 or via email at sharanya.mtsai@gmail.com."
+  ],
+  "context_set": ""
+},
+
+
+
+    {
+  "tag": "MRCET_IT_HOD",
+  "patterns": [
+    "HOD of IT at MRCET",
+    "Information Technology HOD at MRCET",
+    "IT HOD at MRCET",
+    "IT HOD contact details",
+    "IT HOD",
+    "IT department head at MRCET",
+    "Contact details of Dr. G. Sharada",
+    "Who is the IT HOD at MRCET"
+  ],
+  "responses": [
+    "Dr. G. Sharada is the Head of the Department (HOD) for Information Technology (IT) at MRCET.",
+    "She holds M.Tech, Ph.D., MISTE, and MCSI degrees.",
+    "You can contact her at +91 9849175249 or via email at gsharada8@gmail.com."
+  ],
+  "context_set": ""
+},
+
+
+    {
+  "tag": "MRCET_Mechanical_HOD",
+  "patterns": [
+    "HOD of Mechanical at MRCET",
+    "Mechanical Engineering HOD at MRCET",
+    "Mechanical HOD at MRCET",
+    "Mechanical HOD contact details",
+    "Mechanical HOD",
+    "Mech HOD",
+    "Mechanical department head at MRCET",
+    "Contact Dr. Srikar Potnuru at MRCET",
+    "Who is the head of Mechanical department at MRCET",
+    "MRCET Mechanical department contact"
+  ],
+  "responses": [
+    "Dr. Srikar Potnuru is the Head of the Department (HOD) of Mechanical Engineering at MRCET.",
+    "He is an Associate Professor in the Mechanical Engineering department.",
+    "You can contact him at +91-70643-64314 or via email at srikarpotnuru@gmail.com."
+  ],
+  "context_set": ""
+},
+
+   
+    {
+  "tag": "MRCET_Aeronautical_Engineering_HOD",
+  "patterns": [
+    "Who is the HOD of Aeronautical Engineering at MRCET",
+    "HOD of Aeronautical Engineering at MRCET",
+    "Aeronautical Engineering HOD at MRCET",
+    "Aeronautical Engineering HOD contact details",
+    "Aeronautical Engineering HOD",
+    "Aero Hod",
+    "Aeronautical Engineering department head at MRCET",
+    "Contact Dr. M. Mohammed Mohaideen at MRCET",
+    "MRCET Aeronautical Engineering department contact",
+    "Aeronautical Engineering HOD details at MRCET"
+  ],
+  "responses": [
+    "Dr. M. Mohammed Mohaideen is the Head of the Department for Aeronautical Engineering at MRCET.",
+    "He holds B.E. (Mech), M.E. (Aero), Ph.D. (Aero), and MBA (HR).",
+    "You can contact him at +91-7373369629 or via email at mohdmohaideen16@gmail.com."
+  ],
+  "context_set": ""
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
